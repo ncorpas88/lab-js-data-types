@@ -48,10 +48,10 @@ console.log(tipAmount);
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-let randomNUmber = Math.random()* 10 +1;
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
-console.log(randomNUmber);
+console.log(randomNumber);
 
 
 /*******************************************
@@ -68,10 +68,18 @@ const expression2 = a || b; //true
 
 const expression3 = !a && b; //false
 
-const expression4 = !(a && b); //false
+const expression4 = !(a && b); //true
 
 const expression5 = !a || !b; //true
 
 const expression6 = !(a || b); //false
 
 const expression7 = a && a; //true
+
+console.log(expression1);
+console.log(expression2);
+console.log(expression3);
+console.log(expression4);
+console.log(expression5);
+console.log(expression6);
+console.log(expression7);
